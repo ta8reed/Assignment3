@@ -1,0 +1,48 @@
+@media(max-width:767px) /*For Mpbile and tablet*/
+{
+    p{
+     color:red;
+     font-size:40px;
+    }
+}
+@media(min-width:768px) and (max-width:991px) /*Small Screen Rules*/
+{
+    p{
+      color:green;
+      font-size:40px;
+    }
+}
+@media(min-width:992px)/*Medium Screen*/
+{
+    p{
+        color:blue;
+        font-size:40px;
+    }
+}
+@media(min-width:1200px)/*Large screen Rules*/
+{
+    p{
+        color:pink;
+        font-size:24px;
+    }
+}
+
+/*That when we want to repeat the same code of media */
+
+/* Start page1
+@media(min-width:1200px)
+{
+    .classx
+}
+
+ Start page2
+@media(min-width:1200px)
+{
+    .classy
+}
+
+ Start page3
+@media(min-width:1200px)
+{
+    .classz
+}*/
